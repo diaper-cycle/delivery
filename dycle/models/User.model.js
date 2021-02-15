@@ -6,6 +6,7 @@ const userSchema = new Schema({
     type: String,
     unique: true
   },
+<<<<<<< HEAD
   email: {
     type: mongoose.SchemaTypes.Email,
     unique: true, 
@@ -18,6 +19,9 @@ const userSchema = new Schema({
   firstname: String, 
   lastname: String,
   address: String
+=======
+  password: String
+>>>>>>> 28f4384b57bc3dc2731cf94911020a51906cd808
 });
 
 const User = model("User", userSchema);
