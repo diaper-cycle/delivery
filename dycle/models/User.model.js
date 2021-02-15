@@ -6,10 +6,6 @@ const userSchema = new Schema({
     type: String,
     unique: true,
   },
-  userAdress: {
-    type: String
-    address: String,
-  }
   password: String
 });
 
