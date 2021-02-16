@@ -34,12 +34,8 @@ const capitalized = (string) => string[0].toUpperCase() + string.slice(1).toLowe
 app.locals.title = `${capitalized(projectName)}- Generated with IronGenerator`;
 
 // 👇 Start handling routes here
-<<<<<<< HEAD
 //
-const index = require("./routes/index");
-=======
 const index = require("./routes/index.routes");
->>>>>>> 28f4384b57bc3dc2731cf94911020a51906cd808
 app.use("/", index);
 //
 const testing = require("./routes/testing");

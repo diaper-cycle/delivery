@@ -1,4 +1,4 @@
-const { Schema, model, Mongoose } = require("mongoose");
+const { Schema, model } = require("mongoose");
 
 const pickupLocationSchema = new Schema({
     locationName: String,
@@ -8,7 +8,7 @@ const pickupLocationSchema = new Schema({
           required: true
         },
         houseNumber: {
-          type: String,
+          type: Number,
           required: true
         },
         zip: {
